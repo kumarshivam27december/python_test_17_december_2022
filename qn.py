@@ -62,6 +62,11 @@ Given:
 sample_list = [11, 45, 8, 11, 23, 45, 23, 45, 89]
 Expected Output:
 Printing count of each item   {11: 2, 45: 3, 8: 1, 23: 2, 89: 1}
+
+
+
+
+
 Exercise 5: Create a Python set such that it shows the element from both lists in a pair
 Given:
 first_list = [2, 3, 4, 5, 6, 7, 8]
@@ -83,6 +88,11 @@ Expected Output:
 Intersection is  {57, 83, 29}
 First Set after removing common element  {65, 42, 78, 23}
 
+
+
+
+
+
 Exercise 7: Checks if one set is a subset or superset of another set. If found, delete all elements from that set
 Given:
 first_set = {27, 43, 34}
@@ -96,6 +106,11 @@ Second set is Super set of First set -  True
 
 First Set  set()
 Second Set  {67, 73, 43, 48, 83, 57, 29}
+
+
+
+
+
  
 Exercise 8: Iterate a given list and check if a given element exists as a key's value in a dictionary. If not, delete it from the list
 Given:
@@ -103,12 +118,27 @@ roll_number = [47, 64, 69, 37, 76, 83, 95, 97]
 sample_dict = {'Jhon':47, 'Emma':69, 'Kelly':76, 'Jason':97}
 Expected Outcome:
 After removing unwanted elements from list [47, 69, 76, 97]
+
+
+
+
+
+
  
 Exercise 9: Get all values from the dictionary and add them to a list but don't add duplicates
 Given:
 speed = {'jan': 47, 'feb': 52, 'march': 47, 'April': 44, 'May': 52, 'June': 53, 'july': 54, 'Aug': 44, 'Sept': 54}
 Expected Outcome:
 [47, 52, 44, 53, 54]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
 Exercise 10: Remove duplicates from a list and create a tuple and find the minimum and maximum number
 Given:
@@ -118,6 +148,14 @@ unique items [87, 45, 41, 65, 99]
 tuple (87, 45, 41, 65, 99)
 min: 41
 max: 99
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
 Problems on Dictionary
 
@@ -131,11 +169,35 @@ keys = ['Ten', 'Twenty', 'Thirty']
 values = [10, 20, 30]
 Expected output:
 {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+
+
+
+
+
+
+
+
+
 Exercise 2: Merge two Python dictionaries into one
 dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
 dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
 Expected output:
 {'Ten': 10, 'Twenty': 20, 'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Exercise 3: Print the value of key 'history' from the below dict
 sampleDict = {
     "class": {
@@ -164,6 +226,9 @@ Expected output:
 
 
 
+
+
+
 Exercise 5: Create a dictionary by extracting the keys from a given dictionary
 Write a Python program to create a new dictionary by extracting the mentioned keys from the below dictionary.
 Given dictionary:
@@ -177,6 +242,10 @@ sample_dict = {
 keys = ["name", "salary"]
 Expected output:
 {'name': 'Kelly', 'salary': 8000}
+
+
+
+
 
 
 Exercise 6: Delete a list of keys from a dictionary
@@ -196,6 +265,9 @@ Expected output:
 
 
 
+
+
+
 Exercise 7: Check if a value exists in a dictionary
 We know how to check if the key exists in a dictionary. Sometimes it is required to check if the given value is present.
 Write a Python program to check if value 200 exists in the following dictionary.
@@ -203,6 +275,9 @@ Given:
 sample_dict = {'a': 100, 'b': 200, 'c': 300}
 Expected output:
 200 present in a dict
+
+
+
 
 
 
@@ -219,6 +294,12 @@ Expected output:
 {'name': 'Kelly', 'age': 25, 'salary': 8000, 'location': 'New york'}
 
 
+
+
+
+
+
+
 Exercise 9: Get the key of a minimum value from the following dictionary
 sample_dict = {
   'Physics': 82,
@@ -227,6 +308,12 @@ sample_dict = {
 }
 Expected output:
 Math
+
+
+
+
+
+
 
 
 
