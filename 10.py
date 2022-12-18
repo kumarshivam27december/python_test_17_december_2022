@@ -4,3 +4,5 @@ sample_dict = {
     'emp3': {'name': 'Brad', 'salary': 500}
 }
 
+print(dict(sample_dict))
+print(list(sample_dict))
