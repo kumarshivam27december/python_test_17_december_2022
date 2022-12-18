@@ -7,7 +7,8 @@ Solve these problems and push it  on to github
 
 Python Problems
 
-
+ #    section 1 
+ #      {{{{{problems on list}}}}}
 
 
 
@@ -156,8 +157,8 @@ max: 99
  
  
  
- 
-Problems on Dictionary
+# section 2
+ #    Problems on Dictionary
 
 
 
